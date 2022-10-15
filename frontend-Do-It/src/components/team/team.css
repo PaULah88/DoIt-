@@ -1,0 +1,333 @@
+/* MVL VERSION */
+
+.container-team {
+  margin-bottom: 18rem;
+}
+
+.team-heading {
+  text-align: center;
+  color: rgba(14, 29, 52, 0.9);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-heading-title {
+  padding: 1rem;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+.team-subheading {
+  color: rgba(14, 29, 52, 0.9);
+  font-size: large;
+}
+
+.team-row::after {
+  display: table;
+  clear: both;
+}
+
+
+
+.overlay {
+  background-color: rgba(14, 29, 52, 0.9);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-title {
+  margin: 30px 0 7px;
+  text-align: center;
+  font-size: larger;
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: rgba(14, 29, 52, 0.9);
+}
+
+.team-details {
+  color: #fff;
+}
+
+/*images*/
+
+.team-img {
+  position: relative;
+  margin: 1.5rem;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.team-img:hover .overlay {
+  opacity: 0.8;
+}
+
+/*socials*/
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 1rem;
+}
+
+.github-icon {
+  display: flex;
+  flex-direction: row;
+  max-width: 2rem;
+  align-items: center;
+}
+
+.linkedin-icon {
+  display: flex;
+  max-width: 2rem;
+  align-items: center;
+}
+
+.text-social {
+  text-align: center;
+  margin: 1rem;
+  font-style: italic;
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* TABLET VERSION*/
+@media (min-width: 700px) {
+  .team-img img {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .team-heading {
+    text-align: center;
+    color: rgba(14, 29, 52, 0.9);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .team-heading-title {
+    padding: 1rem;
+    text-decoration: underline;
+    font-size: xx-large;
+  }
+
+  .team-subheading {
+    color: rgba(14, 29, 52, 0.9);
+    font-size: large;
+  }
+
+  .team-row {
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-row::after {
+    display: table;
+    clear: both;
+  }
+
+  .team-wrap {
+    padding: 0 40px;
+  }
+
+  .overlay {
+    background-color: rgba(14, 29, 52, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .team-title {
+    margin: 30px 0 7px;
+    text-align: center;
+    font-size: larger;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+    color: rgba(14, 29, 52, 0.9);
+  }
+
+  .team-details {
+    color: #fff;
+  }
+
+  /*images*/
+
+  .team-img {
+    position: relative;
+    margin: 1.5rem;
+    overflow: hidden;
+  }
+
+  .team-img:hover .overlay {
+    opacity: 0.8;
+  }
+
+  /*socials*/
+
+  .github-icon {
+    max-width: 2rem;
+  }
+
+  .linkedin-icon {
+    max-width: 2rem;
+  }
+
+  .text-social {
+    text-align: center;
+    margin: 1rem;
+    font-style: italic;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+  }
+}
+
+/* PC VERSION*/
+@media (min-width: 1025px) {
+  .container-team {
+    margin-bottom: 5rem;
+  }
+  .team-heading {
+    text-align: center;
+    color: rgba(14, 29, 52, 0.9);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .team-heading-title {
+    padding: 1rem;
+    text-decoration: underline;
+    font-size: xx-large;
+  }
+
+  .team-subheading {
+    color: rgba(14, 29, 52, 0.9);
+    font-size: large;
+  }
+
+  .team-row {
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-row::after {
+    display: table;
+    clear: both;
+  }
+
+  .team-wrap {
+    padding: 0 40px;
+  }
+
+  .team-title {
+    margin: 30px 0 7px;
+  }
+
+  .overlay {
+    background-color: rgba(14, 29, 52, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .team-title {
+    text-align: center;
+    font-size: larger;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+    color: rgba(14, 29, 52, 0.9);
+  }
+
+  .team-details {
+    color: #fff;
+  }
+
+  /*images*/
+
+  .team-img:hover .overlay {
+    opacity: 0.8;
+  }
+
+  .team-img {
+    position: relative;
+    margin: 1.5rem;
+    overflow: hidden;
+  }
+
+  /*socials*/
+
+  .socials {
+    display: flex;
+  }
+
+  .github-icon {
+    max-width: 3rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .github-icon:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .linkedin-icon:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .linkedin-icon {
+    max-width: 3rem;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .text-social {
+    text-align: center;
+    margin: 3rem;
+    font-style: italic;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji";
+  }
+}

@@ -1,0 +1,108 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+
+
+/* Style container */
+.container-new {
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 20px;
+  color: 305182;
+}
+
+/* Style inputs, select category and textarea */
+.input[type=text], select, textarea, .input-title {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid  #4a1a5e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+
+/* Style the label to display next to the inputs */
+.label-newService {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+ 
+}
+
+.legend-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #0e1d34;
+}
+
+/* Floating columns for labels */
+.col-25-new {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.btn-submit-new  {
+  /* height: 100%;
+        width: 100%; */
+  background-color: #0e1d34;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.3s ease;
+}
+.btn-submit-new:hover {
+  background-color: #305182;
+  color: white;
+}
+
+/* Floating columns for inputs */
+.col-75-new {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row-new:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+
+
+/* VERSIÓN TABLET */
+@media (min-width: 700px) {
+  .col-75-new, .col-25-new , .input[type=submit]  {
+    width: 100%;
+    margin-top: 0;
+   }
+}
+
+/* VERSIÓN PC */
+@media (min-width: 1025px) {
+  .col-75-new, .col-25-new , input[type=submit]  {
+    width: 100%;
+    margin-top: 0;
+   }
+}
+
+
+
+
+ 

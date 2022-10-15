@@ -1,0 +1,126 @@
+/* - Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+/* MVL VERSION */
+header {
+  padding: 0.5rem;
+  min-width: 100%;
+  align-items: center;
+  background-color: rgba(14, 29, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+header .logo {
+  align-items: center;
+  padding: 0 0 0 0.5rem;
+  width: 3.5rem;
+}
+
+header .title {
+  float: left;
+  padding-right: -2rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav {
+  gap: 2rem;
+}
+
+.explore-services {
+  color: rgb(246, 234, 234);
+  text-decoration: none;
+  text-align: center;
+}
+
+.cont-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* TABLET VERSION */
+header {
+  padding: 0.5rem;
+  min-width: 100%;
+  align-items: center;
+  background-color: rgba(14, 29, 52, 0.9);
+  position: sticky;
+}
+
+header .logo {
+  align-items: center;
+  padding: 0 0 0 0.5rem;
+  width: 3.5rem;
+}
+
+header .title {
+  float: left;
+  padding-right: -2rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav {
+  gap: 2rem;
+}
+
+.explore-services {
+  color: rgb(246, 234, 234);
+  text-decoration: none;
+  text-align: center;
+}
+
+.cont-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* PC VERSION */
+
+@media (min-width: 1025px) {
+  header {
+    padding: 0.5rem;
+    min-width: 100%;
+    align-items: center;
+    background-color: rgba(14, 29, 52, 0.9);
+    position: sticky;
+  }
+
+  header .logo {
+    align-items: center;
+    padding: 0 0 0 0.5rem;
+    width: 3.5rem;
+  }
+
+  header .title {
+    float: left;
+    padding-right: -2rem;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  header nav {
+    gap: 2rem;
+  }
+
+  .explore-services {
+    color: rgb(246, 234, 234);
+    text-decoration: none;
+  }
+
+  .cont-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
